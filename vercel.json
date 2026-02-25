@@ -24,10 +24,5 @@
       "destination": "/index.html"
     }
   ],
-  "env": { "NODE_ENV": "production" },
-  "functions": {
-    "api/**/*.js": { "maxDuration": 30 },
-    "api/stripe-webhook.js": { "maxDuration": 10 },
-    "api/catchall.js": { "maxDuration": 30 }
-  }
+  "env": { "NODE_ENV": "production" }
 }
